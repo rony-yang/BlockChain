@@ -11,6 +11,19 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "destroySmartContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
@@ -71,6 +84,19 @@
 						"type": "address"
 					}
 				],
+				"name": "withdrawMoneyTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
 				"name": "withdrawMoneyTo2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -105,10 +131,10 @@
 	},
 	"sources": {
 		"TestTransferMoney.sol": {
-			"keccak256": "0xe8bbb8c3cb99ae9c4e26a23adce795c2e783acd7ec27963ba174e94919b1ce6a",
+			"keccak256": "0x8705f4931aef416604ac1307f878b49eedf812920dfaef4f607af2367159eeef",
 			"urls": [
-				"bzz-raw://63a939314d2bb3c8275853f543f53764fd7a95441d1e9a0e315a6d9ea5c0684c",
-				"dweb:/ipfs/QmapRJ4pd5hMBrMbfmYZhdGQkw5t5qARzx5ys2AhCQ5Gc4"
+				"bzz-raw://fde375083c36d077f5fc01247078389337696bf4048d3783601c0ab4a8444a47",
+				"dweb:/ipfs/QmdKUCSoJX18BtsD11p8yWVQgFuQ7hfEh4BPjciu2gKVr8"
 			]
 		}
 	},
